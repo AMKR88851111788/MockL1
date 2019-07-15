@@ -1,0 +1,838 @@
+________ is work products by providing a pre-defined structure for creating the work product.
+Single Choice - Select one correct answer from the options list.
+Tools
+Checklist
+Template
+Baseline
+Q2
+
+Which of the following is used to distribute the traffic evenly among the resources?
+Single Choice - Select one correct answer from the options list.
+Load Balancer
+Traffic Manager
+Azure VPN Gateway
+Load Manager
+Q3
+
+Azure Monitoring helps to track performance, maintain security, and identify trends.
+Azure Monitoring can be applied at which level?
+Single Choice - Select one correct answer from the options list.
+Resource Level
+Resource Group Level
+Enterprise Level
+All of the above
+Q4
+
+Which of the Azure Security Model synchronizes on-premises directories and enable single sign-on?
+Single Choice - Select one correct answer from the options list.
+Azure B2C
+Security Center
+Azure AD
+Key Vault
+Q5
+
+Which of the following receives and processes incoming Docker API requests?
+Single Choice - Select one correct answer from the options list.
+Docker Daemon
+Docker Client
+Docker Hub Registry
+Docker Pool
+Q6
+
+State whether the following statements are True or False w.r.t. Microservices:
+
+1. Microservice is not domain driven.
+2. Microservice improves deployment times and load times for IDE
+Single Choice - Select one correct answer from the options list.
+Statement1 is True
+Statement2 is False
+Both the Statements are True
+Statement1 is False
+Statement2 is True
+Both the Statements are False
+Q7
+
+Identify the .NET Microservices architecture category, that provides much better readability and 
+much easier to maintain:
+Single Choice - Select one correct answer from the options list.
+Code
+Deployment
+Understandability
+Scaling
+Q8
+
+Identify the correct statement w.r.t. GIT.
+Single Choice - Select one correct answer from the options list.
+Every change in the history of a project is represented by a commit
+The most recent commit on a branch is referred to as the tip of that branch.
+A "branch" is an active line of development.
+All of the above
+Q9
+
+Which is a set of datacenters deployed within a latency-defined perimeter and connected through 
+a dedicated regional low-latency network?
+Single Choice - Select one correct answer from the options list.
+Region
+Availability Zone
+Geography
+Cloud Centre
+Q10
+
+Which of the following .NET components can be used to remove unused references from the managed heap?
+Single Choice - Select one correct answer from the options list.
+Common Language Infrastructure
+CLR
+Garbage Collector
+Class Loader
+Q11
+
+What will be the output of the below code?
+
+<html>
+ <body>
+   <form name = "myform1">
+   </form>
+   <form name = "myform2">
+   </form>
+  <script language = "JavaScript">
+  document.write(document.forms.length);
+  </script>
+ </body>
+</html>
+Single Choice - Select one correct answer from the options list.
+1
+2
+0
+myform1
+myform2
+Q12
+
+Which of the following form tag is used for creating multi-line text input control?
+Single Choice - Select one correct answer from the options list.
+<input type="multiline" />
+<input type="text" />
+<input type="textarea" />
+<textarea></textarea>
+Q13
+
+Which of the following statement is true about below code?
+
+<xs:element name="project" minOccurs="1" maxOccurs="unbounded" />
+Single Choice - Select one correct answer from the options list.
+project element will occur only one time
+project element will occur zero or more times
+project element will occur one or more times
+project element will occur zero time
+Q14
+
+Given the below Style definition in html page, how can this style will be applied to a paragraph?
+
+<style>
+        #mytext
+        {     background-color: yellow;     }
+</style>
+Single Choice - Select one correct answer from the options list.
+<p class="mytext">This is paragraph</p>
+<p class="#mytext">This is paragraph</p>
+<p id="mytext">This is paragraph</p>
+<p id="#mytext">This is paragraph</p>
+Q15
+
+Identify the FALSE statement w.r.t Controller in MVC:
+Single Choice - Select one correct answer from the options list.
+Controller is a class that manages the relationship between the View and Model
+Controller class is conventionally denoted by the suffix Controller
+Controller responds to user input, talks to the Model, and it decides which view to render
+Action mentods under controller are private and are accessible via URL
+Q16
+
+Identify the correct code snippet which is used for mixing code and plain text:
+Single Choice - Select one correct answer from the options list.
+<text>Customer name is @customerName</text>
+<text>Customer name is #customerName</text>
+<text>Customer name is %customerName</text>
+<text>Customer name is $customerName</text>
+Q17
+
+AJAX Helpers are used to create AJAX enabled elements like Ajax forms and links,
+that exist in which namespace?
+Single Choice - Select one correct answer from the options list.
+System. Web. Ajax
+System. Web. Mvc. Ajax
+System. Mvc. Ajax
+System. Web. Mvc. AjaxHelpers
+Q18
+
+Given the below code which will be written in Routeconfig.cs file under the App_Start folder. 
+
+ public static void RegisterRoutes(_______  routes)
+        {
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "App", action = "Index", id = UrlParameter.Optional }
+            );
+        }
+
+Identify the correct parameter type to be filled in the blank:
+Single Choice - Select one correct answer from the options list.
+RouteCollection
+RouteList
+Routes
+RoutingCollection
+Q19
+
+Which of the following class is used to set an element in center?
+Single Choice - Select one correct answer from the options list.
+.center
+.center-block
+.center-element
+.center-content
+Q20
+
+Which of the following is the correct way to provide employee name in uppercase in Angular 2?
+Single Choice - Select one correct answer from the options list.
+<tr *ngFor="let emp of employees" >
+<td>{{emp.empName :uppercase}}</td>
+</tr>
+
+<tr *ngFor="let emp of employees" >
+<td>{{emp.empName |uppercase}}</td>
+</tr>
+
+<tr *ngFor="let emp of employees" >
+<td>{{emp.empName :toupper}}</td>
+</tr>
+
+<tr *ngFor="let emp of employees" >
+<td>{{emp.empName |toupper}}</td>
+</tr>
+
+Q21
+
+State whether the following statements are True or False:
+
+1. Bindings describe a service's behavior, structures, or message format
+2. Bindings describe how a service is accessed
+Single Choice - Select one correct answer from the options list.
+Statement1 is True
+Statement2 is False
+Both the Statements are True
+Statement1 is False
+Statement2 is True
+Both the Statements are False
+Q22
+
+Complete the code given below, such that the API controller, will restrict the users to access the Post method.
+
+public class ProductController:ApiController
+  {
+xxxxxxxxx
+  public HttpResposneMessage Post() 
+  {
+//Some Code
+  }
+}
+Single Choice - Select one correct answer from the options list.
+[Allow(Users="Raju, Amar")]
+[Authorize(Users="Raju, Amar")]
+[Authenticate(Users="Raju, Amar")]
+[Validate(Users="Raju, Amar")]
+Q23
+
+Geeta has written some code in Page_Load() which is also executing each time when user is clicking 
+on submit button. How can she avoid this problem?
+Single Choice - Select one correct answer from the options list.
+Write code within the block which executes only when Page.IsPostBack is true.
+Write code within the block which executes only when Page.IsPostBack is false.
+Write code within the block which executes only when Page.IsAsync is true.
+Write code within the block which executes only when Page.IsValid is true.
+Q24
+
+Identity the correct field type for GridView to display user-defined content for each item in 
+the Gridview control according to a specified template.
+Single Choice - Select one correct answer from the options list.
+Button Field
+CommandField
+TemplateField
+BoundField
+Q25
+
+Identify the correct way by which we can check entire page validation status instead to find out if 
+all the validation controls succeeded?
+Single Choice - Select one correct answer from the options list.
+By checking IsPostBack property of Page class.
+By checking IsValid property of Page class.
+By checking IsValid property of ValidationSummary control.
+By checking IsError property of ValidationSummary control.
+Q26
+
+Select the statements which are valid w.r.t to ASP.NET Identity.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+We can use ASP.NET Identity in SignalR service as well.
+Its limited to only web applications & can NOT be used in Windows Phone programming.
+ASP.NET Identity has also support of OAuth.
+To include ASP.NET Identity support in application we need to always use SQL Server database.
+Q27
+
+Which of the following tool in Visual Studio is used to render a web page which lets you examine 
+both the source code and the resulting output?
+Single Choice - Select one correct answer from the options list.
+Hierarchical Indentation
+Image Optimizer
+Auto-reduce statement completion
+Page Inspector
+Q28
+
+State True or False w.r.t Debugging & Tracing in ASP.NET.
+
+1. Using Step Over, Step In & Step Out are Tracing techniques.
+2. Tracing is a technique to monitor the execution of your ASP.Net applications.
+Single Choice - Select one correct answer from the options list.
+Statement-1 is True & Statement-2 is False.
+Statement-1 is False & Statement-2 is True.
+Both are True
+Both are False
+Q29
+
+Which of the following statement is NOT valid w.r.t to ViewState?
+Single Choice - Select one correct answer from the options list.
+We can retrieving the value of ViewState by using its key.
+There is no need to cast the retrieved value to respective type.
+Used to retain page and control-specific values between round trips on single page.
+During postback of a Web page to itself, ASP.NET restores the values in _VIEWSTATE.
+Q30
+
+Akhila is developing ASP.NET application in which she needs to maintain user specific information 
+in the form of cookies for next 20 minutes. Select the correct code snippet to complete this requirement.
+Single Choice - Select one correct answer from the options list.
+HttpCookie ck = new HttpCookie("Persistence");
+ck.Value = "Some user specific information here";
+ck.Expires = DateTime.Now.AddMinutes(20);
+Response.Cookies.Add(ck);
+
+HttpCookie ck = new HttpCookie("Persistence");
+ck.Value = "Some user specific information here";
+ck.Expires = 1200;
+Response.Cookies.Add("Persistence");
+
+HttpCookie ck = new HttpCookie("Persistence");
+ck.Value = "Some user specific information here";
+ck.Expires = 20;
+Response.Cookies.Add(ck);
+
+HttpCookie ck = new HttpCookie("Persistence", 20);
+ck.Value = "Some user specific information here";
+Response.Cookies.Add(ck);
+
+Q31
+
+Select statements which are valid w.r.t Master Pages in ASP.NET.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+The extension of MasterPage is '.master'.
+You can also give direct request to master page.
+We can have multiple master pages in one web application.
+We can create content page control into master page as well.
+Q32
+
+How to assign Web.sitemap file to SiteMapPath control as its data source?
+Single Choice - Select one correct answer from the options list.
+Set Web.sitemap file path to DataSource property of SiteMapPath control.
+Set Web.sitemap file path to SiteMap property of SiteMapPath control.
+Set Web.sitemap file path to XmlFile property of SiteMapPath control.
+No need to set any property as it is auto configured.
+Q33
+
+Complete the following code snippet:
+
+public void LoadGrid()
+{
+            SqlConnection connection = new SqlConnection();
+            try
+            {
+                connection.ConnectionString = @"ValidConnectionString";// Assume that connection string is valid.
+                connection.Open();
+                SqlCommand Command = new SqlCommand();
+                Command.Connection = connection;
+                string query = "SELECT * FROM Students";
+                Command.CommandText = query;
+                SqlDataReader Reader =  Command.ExecuteReader();
+                DataTable Table = new DataTable();
+                 //Identify correct code snippet here.
+                dgStudent.DataContext = Table;
+            }
+            catch (SqlException Exception)
+            {
+                MessageBox.Show("Exception Ocurred." + Exception.Message);
+            }
+            finally
+            {
+                if (connection.State == System.Data.ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+}
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+DataTable Table = new DataTable();
+Table.LoadFromReader);
+Table.Load(Reader);
+Table.FillFrom(Reader);
+Q34
+
+Which of the following statements are valid w.r.t Transactions in .NET?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Transactions allow a system to maintain integrity.
+Manual transactions are slower as compared to automatic transactions.
+Manual transactions are managed by Managed by Microsoft Distributed Transaction Coordinator (MSDTC)
+Manual transactions uses transactional capabilities of the data source.
+Q35
+
+Sangeetha has created an application with connected architecture. 
+
+She has executed the command and command contains more than one queries. 
+After executing command, she had retrieved the result in SqlDataReader object. 
+In order to proceed with the next resultset. 
+
+Which of the following  method she shall use?
+Single Choice - Select one correct answer from the options list.
+Next()
+NextTable()
+NextRow
+NextResult()
+Q36
+
+Anshul is developing an application using Disconnected Architecture.
+He has written following code to fetch the customer records in the DataSet:
+He would like to add primary key of Customers table, while filling data in dataset.
+Which of the following option will be replaced at blank space?
+
+SqlConnection connection=new SqlConnection("Valid connection string");
+SqlDataAdapter customerAdapter=new SqlDataAdapter("Select * From Customers", connection);
+________________________
+DataSet dsCustomer=new DataSet();
+customerAdapter.Fill(dsCustomer, "Customer");
+Single Choice - Select one correct answer from the options list.
+customerAdapter.MissingSchemaAction=MissingSchemaAction.AddWithKey;
+customerAdapter.MissingSchemaAction=MissingSchemaAction.AddWithPrimaryKey;
+dsCustomer.MissingSchemaAction=MissingSchemaAction.AddWithKey;
+dsCustomer.MissingSchemaAction=MissingSchemaAction.AddWithPrimaryKey;
+Q37
+
+Predict the output of the following code:
+
+SqlConnection con = new SqlConnection();
+            con.ConnectionString = ConfigurationManager.ConnectionStrings["conStr"].ConnectionString;
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("SELECT * FROM Products", con);
+            DataSet dataset = new DataSet();
+            sqlDataAdapter.Fill(dataset, "products");
+            DataRow dataRow = dataset.Tables["products"].Find(1);
+            dataRow.Delete();
+            sqlDataAdapter.Update(dataset);
+Single Choice - Select one correct answer from the options list.
+Compilation error.
+The code executes without deleting any record.
+The code deletes the product with id 1 from the table.
+Exception.
+Q38
+
+Tom is creating a Product Management System. He wants to auto generate the product id. 
+Which of the following code he should use?
+
+Considering connection and command object are already created.
+Single Choice - Select one correct answer from the options list.
+cmd.CommandText="Select Max(ProductID) from Products";
+int id=(int)cmd.ExecuteScalar();
+id = id +1;
+
+cmd.CommandText="Select Max(ProductID) from Products";
+int id=cmd.ExecuteScalar();
+id = id +1;
+
+cmd.CommandText="Select Min(ProductID) from Products";
+int id=(int)cmd.ExecuteScalar();
+id = id +1;
+
+cmd.Text="Select Max(ProductID) from Products";
+int id=(int)cmd.ExecuteScalar();
+id = id +1;
+
+Q39
+
+Which of the following is advantage of LINQ?
+Single Choice - Select one correct answer from the options list.
+Provides debugger support.
+Enables strong-typing.
+Provides extensive IntelliSense support .
+All of the above
+Q40
+
+Select the correct LINQ code to retrieve the elements greater than 2 to display in descending order.
+Single Choice - Select one correct answer from the options list.
+var elements = from element in array
+orderby element descending
+where element > 2
+select element;
+
+var elements = from element in array
+orderby element descending
+where element < 2
+select element;
+
+var elements = select element
+from element in array
+orderby element descending
+where element > 2;
+
+var elements = select element
+from element in array
+where element < 2;
+orderby element descending
+
+Q41
+
+_______ is also known as shared secret encryption because the encryption of the data is done with 
+an encryption key, a byte array, and the same key is used to decrypt the data also.
+Single Choice - Select one correct answer from the options list.
+Hashing
+Symmetric Encryption
+Asymmetric Encryption
+Polling
+Q42
+
+Which of the following statement is not correct about interface?
+Single Choice - Select one correct answer from the options list.
+Interface is a purely abstract class; it has only signatures, no implementation
+Interface members are implicitly public abstract
+Interface members must be static
+Classes and structs may implement multiple interfaces
+Q43
+
+Which of the following is the correct output of the C#.NET code snippet given below?
+
+int[ , , ] a = new int[ 3, 2, 3 ]; 
+    Console.WriteLine(a.Length);
+Single Choice - Select one correct answer from the options list.
+20
+4
+18
+10
+Q44
+
+Which of the following statement should be added to the method named fun( ) to generate output as 913?
+
+class ParentClass
+{
+    protected int i = 13;
+}
+class ChildClass: ParentClass
+{
+    int i = 9; 
+    public void fun()
+   {
+        // [*** Add statement here ***]
+    } 
+}
+Single Choice - Select one correct answer from the options list.
+Console.WriteLine(base.i + " " + i);
+Console.WriteLine(i + " " + base.i);
+Console.WriteLine(this.i + " " + i);
+Console.WriteLine(i + " " + this.i);
+Q45
+
+What will be the output of the C#.NET code snippet given below?
+
+class MySample
+    { 
+        static MySample()
+        { 
+            Console.Write("MySample Class ");
+        }
+        public static void Demo()
+        { 
+            Console.Write("Demo Method ");
+        } 
+    } 
+    class MyProgram
+    { 
+        static void Main(string[ ] args)
+        { 
+            MySample.Demo();
+        } 
+    } 
+Single Choice - Select one correct answer from the options list.
+MySample Class Demo Method
+Demo Method
+MySample Class
+Demo Method MySample Class
+Q46
+
+You need to create a method that can be called by using a varying number of parameters.
+(Choose the best option)
+Single Choice - Select one correct answer from the options list.
+Method Overloading
+Interface
+Named Parameters
+Lambda Expressions
+Q47
+
+Assemblies Metadata consists of ____________.
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Identity of the assembly
+Attributes
+MSIL
+PE
+Q48
+
+A HashTable t maintains a collection of names of states and capital city of each state. 
+Which of the following is the correct way to find out whether "Kerala" state is present 
+in this collection or not?
+Single Choice - Select one correct answer from the options list.
+t.ContainsKey("Kerala");
+t.HasValue("Kerala");
+t.HasKey("Kerala");
+t.ContainsState("Kerala");
+Q49
+
+You are creating an order-tracking application using a Visual C# .NET. When you are unable to track 
+a particular order number entered by the user, you need to raise an exception. 
+Which of the following options will help you to raise an exception?
+Single Choice - Select one correct answer from the options list.
+try
+catch
+finally
+throw
+Q50
+
+For the code snippet given below, what will be the output?
+
+public class MyGeneric<T>
+{
+    public T Field;
+}
+class Program
+{
+    static void Main(string[ ] args)
+    {
+        MyGeneric<String> g = new MyGeneric<String>();
+        g.Field = "Hello";
+        Console.WriteLine(g.Field);
+    }
+}
+Single Choice - Select one correct answer from the options list.
+It will print string "Hello" on the console.
+My Generic cannot be used as a class name.
+Compile Time Error
+Member Field of class MyGeneric is not accessible directly.
+Q51
+
+Apeksha  wants to create an application which persists the state of "Product" objects into a file. 
+The ProductId must not be persisted.
+
+Which of the following options must to used to satisfy the above requirements?
+Single Choice - Select one correct answer from the options list.
+[Serialized]
+class Product
+{
+[NonSerialized]
+int ProductId;
+string ProductName;
+float Price;
+float Quantity;
+}
+
+[Serializable]
+class Product
+{
+[NonSerialized]
+int ProductId;
+string ProductName;
+float Price;
+float Quantity;
+}
+
+[Serializable]
+class Product
+{
+[NonSerializable]
+int ProductId;
+string ProductName;
+float Price;
+float Quantity;
+}
+
+[Serialized]
+class Product
+{
+[Unserialized]
+int ProductId;
+string ProductName;
+float Price;
+float Quantity;
+}
+
+Q52
+
+Which one of the following option will create a delegate named IsValidTime that accepts 
+a DateTime argument and returns a bool value?
+Single Choice - Select one correct answer from the options list.
+public delegate int IsValidTime(bool, DateTime)
+public delegate bool IsValidTime(Object, EventArgs)
+public delegate void IsValidTime(DateTime)
+public delegate bool IsValidTime(DateTime)
+Q53
+
+Which of the following are the correct ways to declare a delegate for calling the function func()
+defined in the sample class given below?
+
+class Sample
+{
+    public int func(int i, Single j)
+    {
+        //Program code 
+    }
+}
+Single Choice - Select one correct answer from the options list.
+delegate d(int i, Single j);
+delegate void d(int, Single);
+delegate int d(int i, Single j);
+delegate int sample.func(int i, Single j);
+Q54
+
+Which one of the following manages the allocation and release of memory?
+Single Choice - Select one correct answer from the options list.
+Inheritance
+Garbage Collection
+Polymorphism
+Generics
+Q55
+
+Which of the following are true about Docker?
+
+1. Docker is an open platform for developing, shipping, and running applications.
+2.  Docker enables you to separate your applications from your infrastructure so you can deliver software quickly
+3. With Docker, you can manage your infrastructure in the same ways you manage your applications. 
+Single Choice - Select one correct answer from the options list.
+1 & 2
+1& 3
+1,2 & 3
+None of the above
+Q56
+
+Sakina wants to provide a single set of functions that are performed every time after a test is completed.
+
+Which Attribute she should use for the cleanup method?
+
+namespace UnitTesting.Tests
+{
+  using System;
+  using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+
+  [TestClass]
+  public class SuccessTests
+  {
+    [TestInitialize] public void Init()
+    { /* ... */ }
+
+    [-------------------] public void Cleanup()
+    { /* ... */ }
+
+    [TestMethod] public void Add()
+    { /* ... */ }
+  }
+}
+Single Choice - Select one correct answer from the options list.
+TestCleanup
+ClassCleanup
+Ignore
+TextFixtureSetUp
+Q57
+
+Ramesh has Staff_Master table. On this table he would like to create a view named Staff_View. 
+He would also like to hide the definition of view. Identify the correct query to create view:
+Single Choice - Select one correct answer from the options list.
+CREATE VIEW Staff_View
+AS
+SELECT Staff_Code, Staff_Name
+FROM Staff_Master
+WHERE Dept_Code = 10
+
+CREATE VIEW Staff_View
+WITH ENCRYPTION
+AS
+SELECT Staff_Code, Staff_Name
+FROM Staff_Master
+WHERE Dept_Code = 10
+
+CREATE VIEW Staff_View
+WITH HIDDEN
+AS
+SELECT Staff_Code, Staff_Name
+FROM Staff_Master
+WHERE Dept_Code = 10
+
+CREATE VIEW Staff_View
+WITH ENCODE
+AS
+SELECT Staff_Code, Staff_Name
+FROM Staff_Master
+WHERE Dept_Code = 10
+
+Q58
+
+Which of the following statement is correct about below insert query?
+
+INSERT INTO Temp_Cust
+SELECT * FROM Customer WHERE cust_type = 'A';
+Single Choice - Select one correct answer from the options list.
+Inserts all data into Customer table from Temp_Cust table
+Insert data into Customer table from Temp_Cust table whose cust_type is A
+Inserts all data into Temp_Cust table from Customer table
+Insert data into Temp_Cust table from Customer table whose cust_type is A
+Q59
+
+Which of the following is the correct way to execute below stored procedure?
+
+CREATE PROC usp_StaffCount
+(
+   @dcode        INT,
+   @count         INT    OUT
+)
+AS
+BEGIN
+   SELECT @count = COUNT(Staff_Code)
+   FROM Staff_Master
+   WHERE Dept_Code = @dcode
+END
+Single Choice - Select one correct answer from the options list.
+DECLARE @scount INT
+EXEC usp_StaffCount 10, @scount
+PRINT @scount
+
+DECLARE @scount INT
+EXEC usp_StaffCount 10, @scount OUT
+PRINT @scount
+
+DECLARE @scount INT
+EXEC usp_StaffCount 10
+PRINT @scount
+
+DECLARE @scount INT
+EXEC @scount = usp_StaffCount 10
+PRINT @scount
+
+Q60
+
+Which of the following statement is true about below select query?
+
+SELECT e.empname, m.empname
+FROM emp e, emp m
+WHERE e.mgrno = m.empno;
+Single Choice - Select one correct answer from the options list.
+Display all employee names in both columns
+Display manager name and their employees
+Display employee name and their manager name
+Error in the query
